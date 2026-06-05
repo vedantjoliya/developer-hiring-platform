@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="media.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <div class="header">
+            <img class="logo" src="../Assets/logo.png" />
+            <div class="menu">
+                <div><a href="../index/index.html"
+                        class="menu-item">Home</a></div>
+                <div><a href="../works/works.html" class="menu-item">How it
+                        works</a></div>
+                <div><a href="../contact/contact.html"
+                        class="menu-item">Contact</a></div>
+                <div><a href="../about/about.html" class="menu-item">About
+                        us</a></div>
+            </div>
+            <div class="right-side">
+                <a href="./dev.html" class="apply-developer-link">Apply as
+                    Developer</a>
+                <div>
+                    <a class="btn" href="./hire.html">Book a Developer</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="section1">
+            <div class="heading">
+                Need a Software Developer for Just One hour?
+            </div>
+            <div class="heading2">
+                Book the best software developers of your choice to tackle your
+                tech challenges for your professional and Ad hoc IT business
+                needs, whether it's fixing a website, debugging code, or
+                deploying solutions.
+            </div>
+            <div class="center">
+                <img class="image" src="../Assets/hire.png" />
+            </div>
+        </div>
+
+        <div class="section2">
+            <div class="right">
+                <form action="./hire.php" method="POST">
+                    <div class="i1">
+                        <div class="fname">
+                            <label for="fullname">Full name</label>
+                            <input type="text" name="fullname" id="fullname"
+                                class="inputs" placeholder="Ram bahadur"
+                                required />
+                        </div>
+                        <div class="fname">
+                            <label for="emailadd">Email address</label>
+                            <input type="email" name="email" id="emailadd"
+                                class="inputs"
+                                placeholder="example@youremail.com" required />
+                        </div>
+                    </div>
+                    <div class="i1">
+                        <div class="fname">
+                            <label for="phnum">Phone number</label>
+                            <input type="tel" name="phnum" id="phnum"
+                                maxlength="10" pattern="[0-9]{10}"
+                                class="inputs" placeholder="+91 0000000000"
+                                required />
+                        </div>
+                        <div class="fname">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password"
+                                class="inputs" placeholder="Set Password"
+                                required />
+                        </div>
+                    </div>
+                    <div class="i1">
+                        <div class="fname">
+                            <label for="hours">Hours</label>
+                            <input type="number" name="hours" id="hours"
+                                class="inputs" placeholder="Ex. 2 or 5" min="1"
+                                max="24" required />
+                        </div>
+                        <div class="fname">
+                            <label for="company">Company Name</label>
+                            <input type="text" name="company" id="company"
+                                class="inputs" placeholder="Ex. Tata"
+                                required />
+                        </div>
+                    </div>
+                    <div class="i1">
+                        <div class="fname">
+                            <label for="country">Country</label>
+                            <input type="text" name="country" id="country"
+                                class="inputs" placeholder="Ex. India"
+                                required />
+                        </div>
+                        <div class="fname">
+                            <label for="desig">Designation</label>
+                            <select id="desig" name="desig" class="desig"
+                                required>
+                                <option class="selectt" disabled selected>Select
+                                    Designation</option>
+                                <option value="Back-end Engineer">Back-end
+                                    Engineer</option>
+                                <option value="Front-end Engineer">Front-end
+                                    Engineer</option>
+                                <option value="Flutter Developer">Flutter
+                                    Developer</option>
+                                <option value="Full Stack Developer">Full Stack
+                                    Developer</option>
+                                <option value="Data Scientist">Data
+                                    Scientist</option>
+                                <option value="DevOps Engineer">DevOps
+                                    Engineer</option>
+                                <option value="QA Engineer">QA Engineer</option>
+                                <option value="Mobile App Developer">Mobile App
+                                    Developer</option>
+                                <option value="UI/UX Designer">UI/UX
+                                    Designer</option>
+                                <option
+                                    value="Machine Learning Engineer">Machine
+                                    Learning Engineer</option>
+                                <option value="Security Engineer">Security
+                                    Engineer</option>
+                                <option value="Cloud Engineer">Cloud
+                                    Engineer</option>
+                                <option value="Blockchain Developer">Blockchain
+                                    Developer</option>
+                                <option value="Game Developer">Game
+                                    Developer</option>
+                                <option value="Database Administrator">Database
+                                    Administrator</option>
+                                <option value="Systems Engineer">Systems
+                                    Engineer</option>
+                                <option value="Network Engineer">Network
+                                    Engineer</option>
+                                <option value="Big Data Engineer">Big Data
+                                    Engineer</option>
+                                <option value="Product Manager">Product
+                                    Manager</option>
+                                <option value="Project Manager">Project
+                                    Manager</option>
+                                <option value="Scrum Master">Scrum
+                                    Master</option>
+                                <option value="Business Analyst">Business
+                                    Analyst</option>
+                                <option
+                                    value="Technical Support Engineer">Technical
+                                    Support Engineer</option>
+                                <option value="IT Manager">IT Manager</option>
+                                <option value="AI Research Scientist">AI
+                                    Research Scientist</option>
+                                <option value="Frontend Developer">Frontend
+                                    Developer</option>
+                                <option value="Backend Developer">Backend
+                                    Developer</option>
+                                <option value="Web Developer">Web
+                                    Developer</option>
+                                <option value="Software Engineer">Software
+                                    Engineer</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="i1">
+                        <div class="fname">
+                            <label for="skill" id="labelpad">Skills</label>
+                            <input type="text" name="skill" id="skill"
+                                class="longg" placeholder="Ex. Php, java..."
+                                required />
+                            <label for="work" id="labelpad">Work</label>
+                            <input type="text" name="work" id="work"
+                                class="longg" placeholder="Work description..."
+                                required />
+                            <div class="form-checkbox">
+                                <input type="checkbox" id="check" name="check"
+                                    required>
+                                <label for="check">Agree to <a
+                                        href="terms.html">Terms and
+                                        Conditions</a></label>
+                            </div>
+                            <button class="submit" type="submit">Start
+                                Hiring</button>
+                        </div>
+                    </div>
+                </form>
+                <div class="already">
+                    <a href="../dev/hiresign.html">
+                        <h3>Already have a Hiring account?</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+
+            <div class="left">
+                <img class="white" src="../Assets/white.png" />
+
+                <div class="sub">
+                    <h3>Quick links</h3>
+                    <div class="menu">
+                        <div><a href="./index/index.html"
+                                class="menu-item">Home</a></div>
+                        <div><a href="../works/works.html" class="menu-item">How
+                                it
+                                works</a></div>
+                        <div><a href="../contact/contact.html"
+                                class="menu-item">Contact</a></div>
+                        <div><a href="../about/about.html"
+                                class="menu-item">About us</a></div>
+                        <div><a href="../sitemap/sitemap.html"
+                                class="menu-item">Site Map</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+
+                <div class="send">
+                    <form action="../sub/sub.php" method="post">
+                        <input type="email" class="emaill" name="email"
+                            placeholder="Enter Your Email" required>
+
+                        <button type="submit" id="subss"
+                            class="btn">Subscribe</button>
+
+                    </form>
+                </div>
+
+                <div class="icons">
+
+                    <a href="https://www.instagram.com/uix.vedant/"><img
+                            src="../Assets/00 (1).png">
+                    </a>
+                    <a href="https://www.linkedin.com/in/vedant-joliya"><img
+                            id="linkk" src="../Assets/00 (2).png">
+                    </a>
+                    <a href="https://www.behance.net/vedantjoliya"><img
+                            src="../Assets/00 (3).png">
+                    </a>
+
+                </div>
+                <div class="contact">
+                    <div class="cons">
+                        <img src="../Assets/mobile.png">
+                        <a href="tel:+918511482248" class="menu-item">+91
+                            8511482248</a>
+                    </div>
+                    <div class="cons">
+                        <img src="../Assets/mail.png">
+                        <a href=mailto:“contactsvedant@gmail.com”
+                            class="menu-item">contactsvedant@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+</html>
